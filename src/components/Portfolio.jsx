@@ -37,13 +37,10 @@ export default function Portfolio() {
     <a href="#experience" className="hover:text-indigo-300">Experience</a>
     <a href="#contact" className="hover:text-indigo-300">Contact</a>
     <a
-      href="/resume.pdf"
+      href={`${import.meta.env.BASE_URL}resume.pdf`}
       target="_blank"
       rel="noopener noreferrer"
-      className="ml-4 inline-block px-4 py-2 bg-indigo-500 hover:bg-indigo-400 text-white rounded-lg text-sm"
-    >
-      Resume
-    </a>
+      className="ml-4 inline-block px-4 py-2 bg-indigo-500 hover:bg-indigo-400 text-white rounded-lg text-sm">Resume  </a>
   </nav>
 </header>
 
